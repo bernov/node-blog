@@ -1,0 +1,22 @@
+{
+  "name": "crash-course",
+  "version": "1.0.0",
+  "description": "Node.js Crash Course",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "B.Yerzhanov",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.2",
+    "morgan": "^1.10.0"
+  }
+}
