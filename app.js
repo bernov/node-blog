@@ -11,7 +11,7 @@ const app = express();
 
 // connect to mongodb
 const dbURI =
-  'mongodb+srv://ninja-admin:test123@nodetuts.ovqim.mongodb.net/node-tuts?retryWrites=true&w=majority';
+  'mongodb+srv://admin:542dfsafa@bdqlgqa.ovqim.mongodb.net/node-tuts?retryWrites=true&w=majority';
 mongoose
   .connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((result) => {
